@@ -46,7 +46,7 @@ class Song
     song_name = song[1].split(".")
     
     new_song = self.new
-    new_song.name = artist_name 
+    new_song.artist_name = artist_name 
     new_song.song_name = song_name 
     new_song
   end
