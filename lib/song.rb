@@ -46,5 +46,6 @@ class Song
     song_name = song[1].split(".")
     
     new_song = self.new
+    new_song = 
 
 end
