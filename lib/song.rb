@@ -54,7 +54,9 @@ class Song
   def self.create_from_filename(filename) 
     song = filename.split(" - ")
     artist_name = song[0]
-    song_name, ext = song[1].split(".")
+    song_name = song[1].split(".")
+    name = song_name[0]
+    dot_mp3 = song_name[1]
     
     new_song = self.create 
     new_song.artist_name = artist_name 
